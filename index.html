@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginform assigment</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body{
+        display:flex;
+        min-height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .containar{
+        height:500px;
+        background:#fff;
+        border-radius:25px;
+        display:flex;
+        overflow:hidden;
+        width:950px;
+    }
+    .left{
+        width:50%;
+        background:linear-gradient(180deg,#0b63c7,#25c6da);
+        color:#fff;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    }
+    .left img{
+        margin-bottom:20px;
+        width:220px;
+        color: black;
+    }
+    .left h2{
+        letter-spacing:1px;
+        font-family: Algerian;
+        font-size: 40px;
+        font-weight: 500;
+        color: khaki;
+        padding-top: 0px;
+    }
+    .right{
+    width:50%;
+    padding:60px;
+    text-align: center;
+    }
+    .right h1{
+        text-align: center;
+        margin-top: 0px;
+        color:#0b2c8d;
+        font-family: arial;
+        font-weight: bold;
+    }
+    .input-box{
+        text-align: center;
+        margin-top:20px;
+        position:relative;
+        width:100%;
+    }
+    .input-box input{
+        padding:14px 60px;
+        border:none;
+        outline:none;
+        background:#e6e6ea;
+        border-radius:5px;
+        font-size:15px;
+        width:50%;
+    }
+    .input-box span{
+        top:50%;
+        padding: 30px;
+        transform:translateY(-50%);
+        color:#666;
+        position:absolute;
+    }
+    .btn{
+        width:78%;
+        font-size: 25px;
+        font-family: arial;
+        font-weight: bold;
+        padding:13px;
+        border: none;
+        margin-top: 30px;
+        border-radius: 5px;
+        background-color: rgb(0, 136, 255);
+
+    }
+    .btn:hover{
+        background-color: rgb(0, 94, 179);
+        color:#fff;
+        cursor:pointer;
+    }
+    .or{
+        margin-top:20px;
+        font-size: 18px;
+        color:black;
+        font-family: arial;
+    }
+    .social{
+        display:flex;
+        justify-content: center;
+        margin-top:25px;
+        font-size: 25px;
+        gap:20px;
+        font-weight: bold;
+    }
+    .facebook{
+        border: 1px solid black;
+        width: 25px;
+        height: 25px;
+        align-items: center;
+        background-color: #3b5998;
+        color: white;
+        display:flex;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    .google{
+        border: 1px solid black;
+        width: 25px;
+        height: 25px;
+        align-items: center;
+        background-color: #db4437;
+        color: white;
+        display:flex;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    .twitter{
+        border: 1px solid black;
+        width: 25px;
+        height: 25px;
+        align-items: center;
+        background-color: #1da1f2;
+        color: white;
+        display:flex;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    .signup{
+        margin-top:10px;
+        font-size: 15px;
+        font-family: arial; 
+
+    }
+    .signup a{
+        color:rgb(0, 136, 255);
+    }
+    .signup a:hover{
+        color:black;
+    }
+</style>
+</head>
+<body style="background:#5b72b8;
+">
+   <div class="containar">
+    <div class="left">
+        <img src="person1.png" alt="">
+        <h2 >Wellcome Back</h2>
+    </div>
+    <div class="right">
+        <h1>LOGIN</h1>
+        <div class="input-box">
+            <span><i class="ri-mail-line"></i></span>
+            <input type="Username" placeholder="Username">
+        </div>
+        <div class="input-box">
+            <span><i class="ri-lock-line"></i></span>
+            <input type="password" placeholder="Password">
+        </div>
+        <button class="btn">LOGIN</button>
+
+        <div class="or">Or Login With</div>
+
+        <div class="social">
+            <div class="facebook"><i class="ri-facebook-line"></i></div>
+            <div class="google"><i class="ri-google-line"></i></div>
+            <div class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+        </div>
+
+        <div class="signup">
+           Not Member Yet ? <a href="#" style="font-size: 20px;">Sign In</a>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
